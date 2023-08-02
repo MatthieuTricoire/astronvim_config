@@ -1,3 +1,4 @@
+--test
 return {
   -- Configure AstroNvim updates
   updater = {
