@@ -6,4 +6,14 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  -- PACK LANGUAGES
+  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.prisma" },
+  { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.html-css" },
+  { import = "astrocommunity.pack.tailwindcss" },
+
+  -- MOTIONS
+  { import = "astrocommunity.motion.flash-nvim" },
+  { import = "astrocommunity.motion.mini-move" },
 }
