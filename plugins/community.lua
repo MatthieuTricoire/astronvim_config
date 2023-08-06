@@ -9,7 +9,7 @@ return {
   -- PACK LANGUAGES
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.prisma" },
-  { import = "astrocommunity.pack.lua" },
+  -- { import = "astrocommunity.pack.lua" },
   -- { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.tailwindcss" },
 
@@ -22,6 +22,7 @@ return {
 
   -- EDITING
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
 
   -- COLORSCHEME
   { import = "astrocommunity.colorscheme.catppuccin" },
